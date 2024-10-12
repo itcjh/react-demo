@@ -1,0 +1,28 @@
+.todolist{
+  margin: 40px auto;
+  width: 400px;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+ul{
+  list-style:none;   
+  padding: 0;
+  margin: 20px 0;
+}
+li{
+  list-style-type:none;  
+  height: 40px;  
+  line-height: 40px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li:nth-last-child(1){
+  border-bottom: none;
+}
+.aaa{
+  color:red;
+  background-color: pink;
+}
